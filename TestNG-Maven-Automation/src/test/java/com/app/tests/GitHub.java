@@ -17,9 +17,6 @@ public class GitHub extends TestBase {
 		BrowserUtils.getElementsText(By.tagName("a"));
 		System.out.println(BrowserUtils.getElementsText(By.tagName("a")));
 		
-		driver.get("https://facebook.com/");
-		BrowserUtils.getElementsText(By.tagName("a"));
-		System.out.println(BrowserUtils.getElementsText(By.tagName("a")));
 		
 	}
 }
